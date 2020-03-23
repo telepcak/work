@@ -4,13 +4,46 @@ body{
    scroll-behavior: smooth;
 }
 
-#ahoj{
-   width: 1600px;
-   display: flex;
-   justify-content: center;
+#obal{
+  display: flex;
+  justify-content: center;
 }
 
-#obal{
+div{
+   border: white solid 10px;
+}
+
+img{
+   width: 200px;
+   height: 200px;
+}
+
+h2{
+   font-size: 45px;
+   color: white;
+
+}
+
+ul{
+   list-style-type: none;
+   padding-left: 0;
+}
+
+li{
+   padding: 5px;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+   margin: 0 5px;
+}
+
+
+
+#parent{
+   margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(7, 200px);
    grid-template-rows:  repeat(7, 200px);
@@ -21,55 +54,74 @@ body{
    background-color:white;
 }
 
-#ahoj1 img{
-   width: 200px;
-   height: 200px;
-}
-
-#ahoj2{
-    grid-area: 1 / 2 / 2 / 5;
+#nazov{
+   grid-area: 1 / 2 / 2 / 5;
    display: flex;
    justify-content:center;
    align-items:center;
-
+   font-size: 40px;
    color: yellowgreen;
    background-color: white;
 }
 
-#ahoj3{
+#navabar{
     grid-area: 1 / 5 / 2 / 8;
     background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#ahoj4{
+#cotoje{
     grid-area: 2 / 1 / 4 / 4; 
     background-color: tomato;
+    padding: 0px 20px;
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
 }
 
 #ahoj5{
     grid-area: 2 / 4 / 3 / 5; 
-    background-color: teal;
+}
+
+#ahoj5 img{
+   width: 200px;
+   height: 200px;
 }
  
 #ahoj6{
     grid-area: 3 / 4 / 4 / 5; 
-    background-color: purple;
 }
 
-#ahoj7{
+#priznaky{
     grid-area: 2 / 5 / 4 / 8; 
     background-color: slategray;
+    padding: 0px 20px;
+    color: white;
+    font-size: 25px;
 }
+
  
-#ahoj8{
+#akoumyvat{
     grid-area: 4 / 1 / 6 / 3; 
     background-color: steelblue;
+    padding: 0px 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+
  }
 
- #ahoj9{
+ #prevencia{
     grid-area: 4 / 3 / 7 / 6; 
     background-color: violet;
+    padding: 0 20px;
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
  }
+
  #ahoj10{
     grid-area: 4 / 6 / 5 / 7; 
     background-color: yellowgreen;
@@ -80,11 +132,11 @@ body{
     background-color: cornflowerblue;
  }
 
- #ahoj12{
-    grid-area: 1 / 7 / 2 / 8; 
-    background-color: white;
+ #ahoj11 img{
+    width: 400px;
+    height: 400px;
  }
-
+ 
  #ahoj13{
     grid-area: 7 / 3 / 8 / 4; 
     background-color: blueviolet
@@ -100,7 +152,23 @@ body{
     background-color: darkslategray;
  }
 
- #ahoj16{
+ #statistiky{
     grid-area: 5 / 6 / 8 / 8; 
-    background-color: deeppink;
+    background-color: white;
+    padding: 0 20px;
+    color: black;
+    font-size: 30px;
+    line-height: 45px;
+ }
+
+ #statistiky h2{
+   color: teal;
+ }
+
+ #vyliecení{
+    color:yellowgreen;
+ }
+
+ #nakazení{
+    color: red;
  }
